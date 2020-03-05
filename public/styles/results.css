@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+body{
+  font-family: 'Spartan', sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1{
+  color: red;
+}

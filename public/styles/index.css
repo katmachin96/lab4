@@ -1,0 +1,29 @@
+h1 {
+  color:blue;
+}
+
+body {
+
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+.Sign-In, label{
+  display: grid;
+  grid-template-rows: 100px 20px 150px 150px;
+  grid-template-columns: 2fr;
+  font-weight: bold;
+  color: grey;
+  margin-left: 10px;
+  align-items: left;
+
+}
+.Sign-In button{
+  margin-top: 30px;
+}

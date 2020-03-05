@@ -1,0 +1,31 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "## Project Description <!-- you can include known bugs, design decisions, external references used... --> How to run (type this in the terminal):  - ```cd lab3``` - ```npm run start``` - open the localhost url on your own browser",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "BrownCS1320",
+    "Lab3",
+    "MadLibs"
+  ],
+  "author": "lsim2",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.2.0",
+    "htmlhint": "^0.11.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsim2/lab3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lsim2/lab3/issues"
+  },
+  "homepage": "https://github.com/lsim2/lab3#readme"
+}

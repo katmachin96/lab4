@@ -1,0 +1,27 @@
+@media only screen and (max-width: 700px) {
+    .mad-fields {
+        transform: translateX(-30%);
+        left: 50%;
+        position: absolute;
+        top: 600px;
+        font-size: 16px;
+        max-width: 500px;
+    }
+    .mad-answers {
+        position: absolute;
+        top: 75px;
+        transform: translateX(-50%);
+        left: 50%;
+        max-width: 500px;
+        font-size: 14px;
+    }
+    .title {
+        text-align: left;
+    }
+}
+
+  .title {
+    text-align: center; 
+    margin-top: 15px; 
+    font-size: min(max(30px, 4vw), 8vw);
+  }

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+
+body{
+  font-family: 'Spartan', sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1 {
+  font-family: 'Spartan', sans-serif;
+  color:blue;
+}
+
+
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  margin-left: 150px;
+  font-family: 'Spartan', sans-serif;
+}
+.Sign-In, label{
+  display: grid;
+  grid-template-rows: 100px 20px 150px 150px;
+  grid-template-columns: 2fr;
+  font-weight: bold;
+  color: grey;
+  margin-left: 10px;
+  align-items: left;
+
+}
+.Sign-In button{
+  margin-top: 30px;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightgreen);
+}
